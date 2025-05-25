@@ -4,11 +4,14 @@ body{
     padding:20px;
 
 
+
 }
 .frame{
 
     margin:auto;
     max-width:1000px;
+    background-origin: padding-box;
+    box-sizing: 100%;
 
 }
 h1{
@@ -24,5 +27,5 @@ h1{
 img {
   width: 24px;
   height: 24px;
-  object-fit: contain;
+  
 }
