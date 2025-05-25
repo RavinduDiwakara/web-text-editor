@@ -3,9 +3,30 @@
     
         <head>
             <title > simple text editor </title> 
+            <link rel="stylesheet" href="style.css">
         </head>
         <body>
-            
+            <div class="frame">
+                <h1>Simple text Editor</h1>
+                 <div class="navi">
+                
+                    <button onclick="bolbText()">B</button>
+                    <button onclick="italicText()">I</button>
+                    <button onclick="underlineText()">U</button>
+
+                    <input type="color" id="fontColor" onchange="changeColor()" title="Font Color" />
+      
+                    <button onclick="align('left')"><img src="align-left.png" ></button>
+                    <button onclick="align('center')"><img src="align-right.png" ></button>
+                    <button onclick="align('right')"><img src="justification.png" ></button>
+                    <button onclick="align('justify')"><img src="format.png" ></button>
+      
+                    <button onclick="undo()">Undo</button>
+                    <button onclick="redo()">Redo</button>
+    </div>
+                    
+                </div>
+            </div>
             
         </body>
     
